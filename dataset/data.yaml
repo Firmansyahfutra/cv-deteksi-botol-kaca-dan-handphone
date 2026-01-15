@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['bottle', 'glasses box', 'iphone']
+
+roboflow:
+  workspace: bentuk-benda
+  project: my_object-tz9em-f9sel
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bentuk-benda/my_object-tz9em-f9sel/dataset/1
